@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F9F7F2;
+}
+
+/* logo */
+.logo {
+  color: #D26283;
+}
+
+div.logo-wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 0 5px;
+}
+
+.searchbox input{
+  float: right;
+  margin-right: 5px;
+  margin-top: 10px;
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+.searchbox button {
+  float: right;
+}
+
+div.search {
+  padding-top: 15px;
+
+}
+
+input.search-button {
+  background-color: #95A19B;
+  padding-right: 5px;
+  float: right;
+  height: 30px;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+}
+
+ /* page style */
+ .container {
+   display: grid;
+   grid-template-rows: 10% 90%;
+   grid-gap: 5px;
+ }
+/* home page style */
+
+div.home-wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 600px;
+  background-color: #F6F1DF;
+}
+
+div.home-wrapper li a {
+  color: #959293;
+}
+
+div.home-wrapper li a:hover{
+  color: #541D31;
+}
+
+nav.cover {
+  text-align: right;
+  border: 0;
+  background-color: #c4b3a2;
+  margin: 0 5px;
+  padding-right: 10px;
+}
+
+nav.cover li a {
+  color: #E9F6F4;
+}
+nav.cover li a:hover {
+  color: #1B2620;
+}
+.top-bar{
+display: block;
+display: inline-block;
+margin-left: 10px;
+padding-left: 20px;
+padding-right: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 20px;
+font-family: Jazz LET, fantasy;
+
+}
+.bar{
+  text-align: center;
+  padding-left: 100px;
+}
+/*  side bar style*/
+
+ul.side-bar {
+  background-color: #BFC8C4;
+  margin: 0 5px;
+  height: 600px;
+
+}
+ul.side-bar li {
+list-style-type: none;
+padding-bottom: 20px;
+padding-top: 5px;
+text-align: center;
+}
+
+
+/* paragraph style */
+
+
+/* interface stile */
+
+div.inter {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+div.para {
+  background-color: #E5ECE8;
+  padding: 0 15px;
+  margin-right: 5px;
+}
+.head{
+  font-family: Marker Felt, fantasy;
+  color: #2E4C3C
+}
+.paragraph{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+a{
+  text-decoration: none;
+}
+.sample{
+  display: block;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.sware{
+  display: block;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+ /* mic style */
+
+ div.paragraph li{
+   list-style-type: none;
+ }
+
+/*  mic style*/
+div.micro li {
+  list-style-type: none;
+  font-family: fantasy;
+}
+ div.micro {
+   display: grid;
+   grid-template-columns: 50% 50%;
+ }
+
+/* headphone */
+div.headphone-box{
+  position: absolute;
+  padding-left: 400px;
+  padding-right: 270px;
+  padding-top: 10px;
+  padding-bottom:0;
+  background-color: white;
+  /* left: 250px; */
+  width: auto;
+}
+
+div.drum-program{
+  display: inline-block;
+
+}
